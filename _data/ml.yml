@@ -1,0 +1,33 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: HumanoidRL
+  gh_user: PabloVD
+  repo: HumanoidRL
+  img: ../images/humanoid.png
+  desc: Train reinforcement learning algorithms with the [Mujoco's Humanoid environment](https://gymnasium.farama.org/environments/mujoco/humanoid/) using [StableBaselines3](https://stable-baselines3.readthedocs.io/en/master/).
+
+- name: DCGAN
+  gh_user: PabloVD
+  repo: ImageGAN
+  img: ../images/flowers.png
+  desc: Implementation of a DCGAN architecture in Tensorflow for generating pictures.
+
+- name: GraphNNCenterOfMass
+  gh_user: PabloVD
+  repo: GraphNNCenterOfMass
+  img: ../images/GraphImage.png
+  desc: Compute the center of mass of a particle system using several models of Graph Neural Networks with [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/).
+
+- name: HipparcosML
+  gh_user: PabloVD
+  repo: HipparcosML
+  img: ../images/Hippairplot.png
+  desc: Exploratory data analysis and classification of stars from the Hipparcos catalog using pandas, seaborn and sklearn.
+
+- name: GWClassifier
+  gh_user: PabloVD
+  repo: GWClassifier
+  img: ../images/regionsGW.png
+  desc: Classify glitches in gravitational waves events detected by LIGO using machine learning models with sklearn.

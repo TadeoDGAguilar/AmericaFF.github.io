@@ -1,0 +1,53 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+
+
+- name: HAYASHI
+  gh_user: PabloVD
+  repo: HAYASHI
+  img: ../images/hayashi_img.png
+  desc: Python library to compute 21 cm forest observables, including subhalo contributions and non-standard cosmologies. More details in the paper [2209.01305](https://arxiv.org/abs/2209.01305). Read the documentation [here](https://hayashi.readthedocs.io/en/latest/) and install with `pip install hayashi`.
+
+- name: nuHawkHunter
+  gh_user: vmmunoza
+  repo: nuHawkHunter
+  img: ../images/pbhneutrinos.png
+  desc: Code to study bounds on the primordial black holes abundance with neutrino fluxes from emitted Hawking evaporation. More details in the paper [2203.14979](https://arxiv.org/abs/2203.14979).
+
+- name: 21cmBounds
+  gh_user: PabloVD
+  repo: 21cmBounds
+  img: ../images/21cmBounds.png
+  desc: Python script to plot the current observational upper limits on the cosmological 21 cm power spectrum.
+
+- name: 21cmForest_PBH
+  gh_user: PabloVD
+  repo: 21cmForest_PBH
+  img: ../images/21cmForestPBH.png
+  desc: Python code to predict the number of absorption features in the 21 cm forest within primordial black holes scenarios. More details in the paper [2104.10695](https://arxiv.org/abs/2104.10695).
+
+- name: 21cmSolver
+  gh_user: PabloVD
+  repo: 21cmSolver
+  img: ../images/21cmsolverimg.png
+  desc: Python code to predict the thermal evolution of the universe and the 21 cm global signal, taking into account the overdensities. More details in the paper [1912.09488](https://arxiv.org/abs/1912.09488), [Phys. Rev. D 101, 083502](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.083502).
+
+- name: Fisher21WDM
+  gh_user: PabloVD
+  repo: Fisher21WDM
+  img: ../images/Fisher_image.png
+  desc: Compute the Fisher matrix from simulations of the 21 cm power spectrum in warm dark matter cosmologies.
+
+- name: BAOlets
+  gh_user: PabloVD
+  repo: BAOlets
+  img: ../images/baolets.png
+  desc: Fortran code to identify Baryonic Acoustic Oscillations in the LOWZ SDSS galaxy survey via wavelets. Data extracted with a SQL query.
+
+- name: SupernovaMCMC
+  gh_user: PabloVD
+  repo: SupernovaMCMC
+  img: ../images/SNeIaMCMC.png
+  desc: Run Monte Carlo Markov Chains using the Metropolis-Hastings algorithm with Supernovae Ia data to perform cosmological parameter inference.
